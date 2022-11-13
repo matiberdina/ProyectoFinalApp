@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "appUniversity",
+    "slug": "appUniversity",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/snhu-icono.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/snhu-logo-long-white.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a3370"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/snhu-logo-blue.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.masiso.appUniversity"
+    },
+    "web": {
+      "favicon": "./assets/favicon.ico"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5a850205-f250-4ea0-9bb3-9b1cfc9cecb0"
+      }
+    }
+  }
+}
